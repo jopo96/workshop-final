@@ -87,6 +87,7 @@
 #equipo{
 	padding-top: 100px;
 	h2{
+		max-width: 350px;
 		font-size: 50px;
 		font-weight: 700;
 		font-family: $fuente-1;
@@ -98,15 +99,21 @@
 	}
 
 	figure{
-		margin-top: 80px;
+		margin-top: 50px;
 		display: inline-block;
 		text-align: center;
 	}
 
+.container1{
+	max-width: 360px;
+	display: block;
+	margin: auto;
+}
 	h3{
 		font-family: $fuente-2;
 		font-size: 30px;
 		color: $color-1;
+		text-align: left;
 	}
 	h4{
 		font-family: $fuente-1;
@@ -115,23 +122,25 @@
 		text-transform: uppercase;
 		font-: 20px;
 		line-height: 10px;
+		text-align: justify;
 	}
 	p{
 		padding-top: 20px;
-		font-size: 14px;
+		font-size: 16px;
+		color: $color-1;
+		text-align: left;
 	}
 }
-
-
-
-
-
-
 
 
 /****************************************/
 /*=========     PORTFOLIO     =========*/
 /**************************************/
+
+
+
+
+
 
 
 

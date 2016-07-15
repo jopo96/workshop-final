@@ -2,4 +2,24 @@
 /*=========     MEDIA-QUERIES    =========*/
 /******************************************/
 
+@media (min-width: 768px) {
+	h2{
+		width: 220px;
+	}
+}
+
+
+
+@media (min-width: 992px) {
+	h2{
+		width: 293px;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	h2{
+		width: 360px;
+	}
+}
 // version SM
